@@ -21,7 +21,7 @@ Eureka Service Discovery is a project developed with Spring Boot and Eureka, des
 ## :gear: Customer Service Configuration
 
 1.  **Customer Service** is a project that creates a microservice for customer management which will be attached to our Eureka panel. You need to download the CUstomer Service **[here](https://github.com/AndresMaldonado200338/Customer-Service)**.
-2. Follow the steps to run **Customer Service**, ensuring the port in `eureka.client.service-url.defaultZone` it is deployed on matches the one you have in the `server.port` of your `application.properties` file in this project.
+2. Follow the steps to run **Customer Service**, ensuring the port in `eureka.client.service-url.defaultZone` must be the same as the `server.port` in your `application.properties` file in this project.
 
     In this project:
     ```properties
@@ -37,8 +37,8 @@ Eureka Service Discovery is a project developed with Spring Boot and Eureka, des
 
 1. Download the **Customer Service** and this project, ensuring they are located in appropriate places.
 2. Open both projects in your preferred IDE.
-3. Run the main file of **Eureka** `EurekaApplication.java` located at `src/main/java/edu/uptc/swii/eureka`.
-4. Run the main file of **Customer Service** `CustomerserviceApplication.java` located at `src/main/java/edu/uptc/swii/customerservice`.
+3. Run first the main file of **Eureka** `EurekaApplication.java` located at `src/main/java/edu/uptc/swii/eureka`.
+4. Then run the main file of **Customer Service** `CustomerserviceApplication.java` located at `src/main/java/edu/uptc/swii/customerservice`.
 
 **Eureka Service Discovery** will run at the URL `http://localhost:PORT`, where `PORT` is the value you configured earlier in the `application.properties` file.
 
